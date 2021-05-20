@@ -10,6 +10,7 @@ function App() {
     <div className="App">
       <Router>
         <Switch>
+          <Route exact path="/banksearch" component={HomePage} />
           <Route exact path="/" component={HomePage} />
           <Route exact path="/banks/:city" component={BanksList} />
           {/* <Route exact path="/banks/:mumbai" component={BanksList} />
