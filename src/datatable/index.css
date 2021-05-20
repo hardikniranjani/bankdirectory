@@ -1,0 +1,34 @@
+.table_data_main{
+    margin-top:20px;
+}
+.th_data{
+  font-weight: normal;
+}
+
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #dddddd;
+  }
+
+  .fav_icon{
+    margin-top:-20px;
+    padding:0px;
+  }
+
+  .fav_icon:hover{
+    cursor: pointer;
+    transition:0.5s;
+    color: rgb(236, 103, 148) !important;
+   
+  }

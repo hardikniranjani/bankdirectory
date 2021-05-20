@@ -1,0 +1,11 @@
+.loader {
+     height: 100vh;
+     top:170px;
+     position: fixed;
+     width: 100vw;
+     display: flex;
+    justify-content: center;
+    background-color: #fafafa;
+    z-index: 99;
+  }
+  
